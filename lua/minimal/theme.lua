@@ -486,6 +486,22 @@ M.plugins = {
   TelescopeResultsDiffDelete = { fg = colors.red_key_w, bg = "#333333" },
   TelescopePreviewBorder     = { fg = colors.black1, bg = colors.black1 },
   TelescopeResultsBorder     = { fg = colors.black1, bg = colors.black1 },
+  -----------------------------------------
+
+
+  -----------------------------------------
+  --    bufferline
+  -----------------------------------------
+
+  BufferLineBackground = { fg = colors.gray_punc, bg = colors.bg },
+  BufferLineSeparator = { fg = colors.gray, bg = colors.bg },
+  BufferLineSeparatorVisible = { fg = colors.gray, bg = colors.bg },
+  BufferLineSeparatorSelected = { fg = colors.bg, bg = colors.bg },
+  BufferLineIndicatorSelected = { fg = colors.bg, bg = colors.bg },
+  BufferLineBufferVisible = { fg = colors.blue_type, bg = colors.bg },
+  BufferLineCloseButtonSelected = { fg = colors.red_key_w, bg = colors.bg },
+  BufferLineTabSelected = { fg = colors.bg, bg = colors.bg },
+  BufferLineTabClose = { fg = colors.gray, bg = colors.gray },
 
 
   -----------------------------------------
