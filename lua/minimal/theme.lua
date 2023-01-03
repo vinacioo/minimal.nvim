@@ -49,7 +49,7 @@ M.base = {
   Exception = { fg = colors.white },
 
   Float       = { fg = colors.orange },
-  FloatBorder = { fg = colors.gray2, bg = "NONE" },
+  FloatBorder = { fg = colors.gray, bg = "NONE" },
   FoldColumn  = { fg = colors.line_fg },
   Folded      = { fg = colors.white, bg = colors.gray },
   Function    = { fg = colors.green_func },
@@ -62,7 +62,7 @@ M.base = {
   Keyword = { fg = colors.red_key_w, style = config.italic_keywords },
 
   Label  = { fg = colors.red_key_w },
-  LineNr = { fg = colors.line_fg, bg = colors.line_bg },
+  LineNr = { fg = colors.line_fg, bg = colors.bg },
 
   Macro         = { fg = colors.red_key_w, style = config.italic_keywords },
   MatchParen    = { fg = colors.white1, bg = colors.black },
@@ -94,7 +94,7 @@ M.base = {
   Repeat = { fg = colors.red_key_w },
 
   Search              = { fg = colors.line_fg, bg = colors.orange },
-  SignColumn          = { bg = colors.line_bg },
+  SignColumn          = { bg = colors.bg },
   Special             = { fg = colors.gray_punc },
   SpecialChar         = { fg = colors.yellow },
   SpecialComment      = { fg = colors.pink },
@@ -104,8 +104,8 @@ M.base = {
   SpellLocal          = { fg = colors.green, style = 'underline' },
   SpellRare           = { fg = colors.pink, style = 'underline' },
   Statement           = { fg = colors.red_key_w },
-  StatusLine          = { fg = colors.line_fg, bg = colors.black },
-  StatusLineNC        = { fg = colors.line_fg, bg = colors.black },
+  StatusLine          = { fg = colors.bg, bg = colors.bg },
+  StatusLineNC        = { fg = colors.bg, bg = colors.bg },
   StatusLineSeparator = { fg = colors.dark },
   StatusLineTerm      = { fg = colors.green_func, bg = colors.black },
   StatusLineTermNC    = { fg = colors.gray_punc, bg = colors.black },
@@ -301,10 +301,10 @@ M.plugins = {
   DiagnosticFloatingInfo  = { fg = colors.yellow },
   DiagnosticFloatingWarn  = { fg = colors.orange_wr },
 
-  DiagnosticSignError = { fg = colors.red_err, bg = colors.line_bg },
-  DiagnosticSignHint  = { fg = colors.blue_type, bg = colors.line_bg },
-  DiagnosticSignInfo  = { fg = colors.yellow, bg = colors.line_bg },
-  DiagnosticSignWarn  = { fg = colors.orange_wr, bg = colors.line_bg },
+  DiagnosticSignError = { fg = colors.red_err, bg = colors.bg },
+  DiagnosticSignHint  = { fg = colors.blue_type, bg = colors.bg },
+  DiagnosticSignInfo  = { fg = colors.yellow, bg = colors.bg },
+  DiagnosticSignWarn  = { fg = colors.orange_wr, bg = colors.bg },
 
   DiagnosticUnderlineError = { style = 'underline' },
   DiagnosticUnderlineHint  = { style = 'underline' },
@@ -471,7 +471,7 @@ M.plugins = {
   -----------------------------------------
   --    telescope: github.com/nvim-telescope/telescope.nvim
   -----------------------------------------
-  TelescopeBorder            = { fg = colors.gray1, bg = config.transparent_background and 'NONE' or colors.black1 },
+  TelescopeBorder            = { fg = colors.yellow, bg = config.transparent_background and 'NONE' or colors.black1 },
   TelescopeMatching          = { fg = colors.yellow },
   TelescopePromptPrefix      = { fg = colors.white1 },
   TelescopeSelection         = { fg = colors.white1, bg = colors.gray1 },
