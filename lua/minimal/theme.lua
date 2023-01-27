@@ -111,6 +111,7 @@ M.base = {
     String = { fg = colors.yellow },
     Structure = { fg = colors.green_func },
     Substitute = { fg = colors.gray2, bg = colors.orange },
+    Scrollbar = { fg = colors.gray1, bg = "NONE" },
 
     TabLine = { fg = colors.line_fg },
     TabLineFill = { fg = colors.line_fg },
@@ -216,7 +217,7 @@ M.plugins = {
     CmpItemKindEnum = { fg = colors.blue_type },
     CmpItemKindStruct = { fg = colors.blue_type },
     CmpItemKindKeyword = { fg = colors.pink },
-    CmpItemMenu = { fg = colors.pink },
+    CmpItemMenu = { fg = colors.white, bg = colors.black1 },
     CmpItemKindOperator = { fg = colors.red_key_w },
     -----------------------------------------
 
